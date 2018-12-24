@@ -10,11 +10,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Adress {
-    private long adress_id;
-    private String region;
-    private String locality;
-    private String street;
-    private String house;
-    private String appartent;
+public class Speciality {
+    private long spec_id;
+    private String spec_name;
+    private String spec_type;
 }
