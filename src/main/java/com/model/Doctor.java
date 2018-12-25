@@ -1,22 +1,37 @@
 package com.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 import java.util.Date;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
 
 public class Doctor {
     private long doctor_id;
     private String name;
     private String surname;
     private String patronymic;
+
+
+    public Doctor() {
+    }
+
+    public Doctor(long doctor_id, String name, String surname, String patronymic, Date DOB,
+                  int phone, int work_phone, long spec_id, Date employed, Date fired, long adress_id,
+                  long scheduler_id, long room_id, long hospital_id) {
+        this.doctor_id = doctor_id;
+        this.name = name;
+        this.surname = surname;
+        this.patronymic = patronymic;
+        this.DOB = DOB;
+        this.phone = phone;
+        this.work_phone = work_phone;
+        this.spec_id = spec_id;
+        this.employed = employed;
+        this.fired = fired;
+        this.adress_id = adress_id;
+        this.scheduler_id = scheduler_id;
+        this.room_id = room_id;
+        this.hospital_id = hospital_id;
+    }
+
     private Date DOB;
     private int phone;
     private int work_phone;
