@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringHibernateApp.iml" filepath="$PROJECT_DIR$/SpringHibernateApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bicycleProject.iml" filepath="$PROJECT_DIR$/bicycleProject.iml" />
     </modules>
   </component>
 </project>
